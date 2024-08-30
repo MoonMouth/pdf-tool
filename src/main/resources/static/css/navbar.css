@@ -1,3 +1,16 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030; /* 确保导航栏在其他内容之上 */
+    background-color: white;
+    height: 80px;
+}
+
+body {
+    padding-top: 60px; /* 根据导航栏的高度调整这个值 */
+}
+
 #navbarSearch {
   top: 100%;
   right: 0;
@@ -7,7 +20,7 @@
 }
 
 #navbarSearch.show {
-  max-height: 300px;
+  max-height: 200px;
   /* Adjust this to your desired max height */
 }
 
