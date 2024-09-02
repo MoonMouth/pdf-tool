@@ -1,4 +1,4 @@
-FROM hub.atomgit.com/library/alpine:3.17
+FROM hub.atomgit.com/library/alpine:3.18
 
 # Copy necessary files
 COPY scripts /scripts
